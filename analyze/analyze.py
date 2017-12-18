@@ -4,7 +4,6 @@ import time
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer as SIA
 
-nltk.download('all')
 hdr = {'User-Agent': 'windows:r/CryptoCurrency.single.result:v1.0' +
        '(by /u/)'}
 url = 'https://www.reddit.com/r/CryptoCurrency/.json'
