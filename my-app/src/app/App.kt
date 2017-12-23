@@ -21,6 +21,9 @@ class App : RComponent<RProps, RState>() {
         p("App-ticker") {
             ticker()
         }
+        p("Sentiment") {
+            sentiment()
+        }
     }
 }
 
