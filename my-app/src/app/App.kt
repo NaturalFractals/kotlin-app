@@ -4,6 +4,7 @@ import react.*
 import react.dom.*
 import logo.*
 import ticker.*
+import sentiment.*
 
 class App : RComponent<RProps, RState>() {
     override fun RBuilder.render() {
@@ -21,7 +22,7 @@ class App : RComponent<RProps, RState>() {
         p("App-ticker") {
             ticker()
         }
-        p("Sentiment") {
+        p("App-sentiment") {
             sentiment()
         }
     }
